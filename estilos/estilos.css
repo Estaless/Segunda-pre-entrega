@@ -9,6 +9,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 .navbar, .dropdown-menu{
@@ -96,6 +99,120 @@ h1{
     padding: 20px;
     
 }
+
+
+                    /*inicio pagina productos*/
+
+
+                    .productos, .Nosotros, .carrito, .Contacto{
+                        background: #959595;
+                        background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 5%, #0a0a0a 47%, #4e4e4e 49%, #0a0a0a 83%, #1b1b1b 86%, #4e4e4e 95%, #4e4e4e 98%);
+                        background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 5%,#0a0a0a 47%,#4e4e4e 49%,#0a0a0a 83%,#1b1b1b 86%,#4e4e4e 95%,#4e4e4e 98%);
+                        background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 5%,#0a0a0a 47%,#4e4e4e 49%,#0a0a0a 83%,#1b1b1b 86%,#4e4e4e 95%,#4e4e4e 98%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#4e4e4e',GradientType=0 );
+                        
+                        
+                        
+                        
+                        
+                    }
+                    
+                    .tituloNP{
+                        height: 50px;
+                        text-align: center;
+                        margin: 20px auto;
+                        padding: 10px;
+                    }
+                    
+                    
+                    .sec3prod img{
+                        width: 300px;
+                        height: 200px;
+                        opacity: 0.7;
+                        border: 5px double grey;
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                    
+                    .sec3prod{
+                        
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                    
+                    .sec3prod img:hover{
+                        opacity: 1;
+                        border: solid white
+                        
+                    }
+                                    /*fin pagina productos*/
+                    
+                    
+
+
+
+footer{
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgba(182, 94, 31, 0.742);
+
+   
+    
+}
+
+
+
+
+.Footercontact{
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logosfooter{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.logosfooter:hover{
+    transform: scale(1.1,1.1);
+}
+
+.footeralinicio{
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+    
+}
+
+.footeralinicio h6{
+    font-size: 0.4rem;
+}
+
+.footeralinicio a{
+    text-align: center;
+    text-decoration: none;
+    color: aqua; 
+    transition: 1s
+    
+}
+.footeralinicio a:hover{
+    color: rgba(182, 94, 31, 0.742);
+    background-color: aqua;
+    padding: 2px;
+    margin: 2px;
+   
+}
+
+
 
 
 @media (max-width: 768px) {
