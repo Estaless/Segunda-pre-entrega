@@ -11,6 +11,94 @@ body{
     background-size: cover;
 }
 
-.navbar{
+.navbar, .dropdown-menu{
+    
     background-color: rgba(182, 94, 31, 0.929);
+    font-family: 'Niconne', cursive;
+    font-size: 1.5rem;
+    
 }
+
+
+.nav-item:hover{
+    background-color: rgba(0, 255, 255, 0.608);
+    transition: 1s;
+    border-radius: 25%;
+}
+
+.dropdown-item:hover{
+    background-color: aqua;
+    
+}
+
+.navbar-brand:hover{
+    transform: rotateZ(360deg);
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Niconne', cursive;
+    color: rgba(3, 3, 121, 0.363);
+    font-size: 2.5rem
+
+}
+
+.h2inicio{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Niconne', cursive;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-right:10px ;
+    padding-bottom: 10px; 
+    color: rgb(3, 3, 3);
+
+}
+
+.imgsection{
+    width: 250px; 
+    height: 200px;
+    border: 5px double grey;
+    border-radius: 25%;
+    
+    
+}
+
+.imgsection:hover{
+    transform: scale(1.1,1.1);
+}
+
+.row{
+    text-align: center;
+}
+.row p{
+    background-color: rgba(182, 94, 31, 0.929);
+    font-style: bold;
+
+}
+.h3imag{
+
+    margin: 3px;
+    padding: 3px;
+    background-color: rgba(182, 94, 31, 0.929);
+    color: rgb(251, 248, 248);
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.sec1ini{
+    margin: 30 auto;
+    padding: 20px;
+    
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background:rgba(89, 232, 237, 0.148);
+    }
