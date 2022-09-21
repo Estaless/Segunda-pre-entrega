@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-image: url(../Fotos/fondo2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Niconne', cursive;
-    display: grid;
     min-height: 100vh;
+    display: grid;
     grid-template-rows: auto 1fr auto;
-}
 
+}
+                /*inicio navbar*/
 .navbar, .dropdown-menu{
     
     background-color: rgba(182, 94, 31, 0.929);
@@ -41,9 +43,11 @@ body{
     transition: 2s;
 }
 
+                    /*fin navbar*/
+
+
 h1{
     font-family: 'Kaushan Script', cursive;
-    
     color: rgba(3, 3, 121, 0.363);
     font-size: 2.5rem
 
@@ -116,46 +120,47 @@ h1{
                         background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 5%,#0a0a0a 47%,#4e4e4e 49%,#0a0a0a 83%,#1b1b1b 86%,#4e4e4e 95%,#4e4e4e 98%);
                         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#4e4e4e',GradientType=0 );
                         
-                        
-                        
-                        
-                        
                     }*/
-                    
-                    .tituloNP{
-                        height: 50px;
-                        text-align: center;
-                        margin: 20px auto;
-                        padding: 10px;
-                    }
-                    
-                    
-                    .sec3prod img{
-                        width: 300px;
-                        height: 200px;
-                        opacity: 0.7;
-                        border: 5px double grey;
-                        margin: 5px;
-                        padding: 5px;
-                    }
-                    
-                    .sec3prod{
-                        
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: row;
-                        justify-content: space-around;
-                    }
-                    
-                    .sec3prod img:hover{
-                        opacity: 1;
-                        border: solid white
-                        
-                    }
-                                    /*fin pagina productos*/
 
 
-                                                    /*inicio pagina nosotros*/
+
+
+   
+
+.imgproductos img{
+width: 400px;
+height: 300px;
+opacity: 0.7;
+border: 5px double grey;
+margin: 20px;
+margin-left: 50px;
+padding: 2px;
+}
+
+
+
+                    
+ .tituloNP{
+ height: 50px;
+ text-align: center;
+ margin: 20px auto;
+ padding: 10px;
+ }
+
+.imgproductos img:hover{
+    opacity: 1;
+    border: solid white                    
+ }      
+ 
+
+                  
+
+     
+ 
+                    /*fin pagina productos*/
+
+
+                     /*inicio pagina nosotros*/
 
 .tituloNH{
     height: 50px;
@@ -357,12 +362,9 @@ textarea{
         padding: 35px 0px;
         text-align: center;
     }
+
 }
 
 
 
 
-@media (max-width: 768px) {
-    body {
-        background:rgba(89, 232, 237, 0.148);
-    }
